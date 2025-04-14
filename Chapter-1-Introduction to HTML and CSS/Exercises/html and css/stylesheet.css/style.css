@@ -1,0 +1,62 @@
+/* General Reset and Base Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Content */
+main {
+  padding: 20px 40px;
+}
+
+/* Section Headings */
+h2 {
+  color: #005fa3;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Article Boxes */
+article {
+  background: #ffffff;
+  margin: 15px 0;
+  padding: 15px;
+  border-left: 5px solid #0077cc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Code Styling */
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  overflow-x: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+code {
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 0.95em;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
+}
