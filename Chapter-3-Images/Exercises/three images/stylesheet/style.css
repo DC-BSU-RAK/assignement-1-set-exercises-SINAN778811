@@ -1,0 +1,31 @@
+/* Style for the main gallery container */
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Original images on the left */
+.gallery.original {
+  flex: 1;
+}
+
+/* Filtered images on the right */
+.gallery.filtered {
+  flex: 1;
+}
+
+/* Image styling (same grayscale hover effect) */
+.image-container img,
+.image-filtered img {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+  width: 100%;
+  height: auto;
+}
+
+.image-container img:hover,
+.image-filtered img:hover {
+  filter: grayscale(0%);
+}
